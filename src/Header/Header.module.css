@@ -1,0 +1,47 @@
+.nameApp {
+  font-size: 70px;
+  font-family: "Lobster Two", cursive;
+  color: #051c33;
+  display: block;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+.searchForm {
+  max-width: 460px;
+  display: flex;
+  margin: 0 auto 32px;
+}
+
+.input {
+  font-size: 16px;
+  width: 100%;
+  background-color: #edeff0;
+  padding: 10px 15px;
+  border: 3px solid #d7dbdf;
+  border-right: none;
+  border-radius: 0.35em 0 0 0.35em;
+  outline: none;
+  display: inline-block;
+  cursor: text;
+  margin: 0em;
+}
+
+.button {
+  outline: none;
+  border: none;
+  padding: 0 15px;
+  border-radius: 0 0.35em 0.35em 0;
+  cursor: pointer;
+  color: -internal-light-dark(black, white);
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  background-color: -internal-light-dark(rgb(239, 239, 239), rgb(59, 59, 59));
+  box-sizing: border-box;
+  margin: 0em;
+  border-width: 2px;
+}

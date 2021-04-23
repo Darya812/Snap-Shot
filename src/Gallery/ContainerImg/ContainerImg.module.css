@@ -1,0 +1,27 @@
+.imgContainer {
+  width: 220px;
+  height: 165px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.imgContainer img {
+  width: 100%;
+  transition: transform 1.25s;
+}
+
+.imgContainer img:hover {
+  transform: scale(1.25);
+}
+
+@media screen and (max-width: 510px) {
+  .imgContainer {
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 410px) {
+  .imgContainer {
+    width: 250px;
+  }
+}
