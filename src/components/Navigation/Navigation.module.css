@@ -8,19 +8,6 @@
   margin: 50px auto;
 }
 
-.navLink {
-  font-family: "Josefin Sans", sans-serif;
-  display: block;
-  background-color: #051c33;
-  border-radius: 3px;
-  padding: 5px;
-  color: #fff;
-  cursor: pointer;
-  text-decoration: none;
-  margin: 10px;
-  width: 100px;
-}
-
 @media screen and (max-width: 510px) {
   .listNav {
     display: grid;
