@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
-import { Gallery } from "./components/Gallery/Gallery";
-import { Header } from "./components/Header/Header";
-import { Navigation } from "./components/Navigation/Navigation";
+import { Gallery } from "./components/Gallery";
+import { Header } from "./components/Header";
+import { Navigation } from "./components/Navigation";
 
 
 function App() {

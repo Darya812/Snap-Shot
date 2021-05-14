@@ -1,5 +1,5 @@
 import React from "react";
-import { ContainerImg } from "../ContainerImg/ContainerImg";
+import { ContainerImg } from "../ContainerImg";
 import styles from "./Gallery.module.css";
 
 export const Gallery = ({ arrayLinks }) => {

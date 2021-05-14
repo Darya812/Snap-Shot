@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import SearchIcon from "../SearchIcon/SearchIcon";
+import SearchIcon from "../SearchIcon";
 import styles from "./Header.module.css";
 
 export const Header = ({ setRequest }) => {
@@ -12,12 +12,13 @@ export const Header = ({ setRequest }) => {
   const handleChange = (e) => {
     const value = e.target.value;
     setInput(value);
-  };
+   };
 
   const handleKeyPress = (e) => {
     if (e.key === "Enter") {
       sendRequest();
     }
+  
   };
 
   return (

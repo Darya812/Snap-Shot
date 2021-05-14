@@ -1,5 +1,5 @@
 import React from "react";
-import { ButtonOfmenu } from "../ButtonOfMenu/ButtonOfMenu";
+import { ButtonOfmenu } from "../ButtonOfMenu";
 import styles from "./Navigation.module.css";
 const arrayButton = ["mountain", "beaches", "birds", "food"];
 
